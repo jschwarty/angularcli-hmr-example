@@ -5,6 +5,7 @@
   "angular-cli": {},
   "scripts": {
     "start": "ng serve",
+    "serve:hmr" : "ng serve --hmr -e=dev-hmr",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "2.2.4",
+    "@angularclass/hmr": "^1.2.2",
     "@types/jasmine": "2.5.38",
     "@types/node": "6.0.42",
     "angular-cli": "1.0.0-beta.21",

@@ -1,9 +1,16 @@
-# AngularcliHmrExample
+# Angular-cli HMR Example
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Development server with HMR
+Run `npm run serve:hmr` for a dev server with Hot Module Replacement. Navigate to `http://localhost:4200/`. 
+The app will hot swap module (js) code if you change any of the source files.
+Note that this will result in a new bootstrap call to your app, so if you want to 
+retain state upon hot swap you would need to architect your app to support state
+management and update `hmr.ts` to handle capturing and passing in the state.
 
 ## Code scaffolding
 
