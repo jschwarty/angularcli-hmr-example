@@ -40,6 +40,17 @@ management and update `hmr.ts` to handle capturing and passing in the state.
 > If you switch between running `ng serve` and `npm run serve:hmr` and have left your browser open
 > you should do a hard refresh in the browser to re-establish the webpack-dev-server connection.
 
+**Files added/edited in a default angular-cli project for HMR support**  
+- /src
+  - /environments
+    - environment.dev-hmr.ts <span style="color: forestgreen;">new</span>
+    - environment.prod.ts <span style="color: dodgerblue;">modified</span>
+    - environment.ts <span style="color: dodgerblue;">modified</span>
+  - hmr.ts <span style="color: forestgreen;">new</span>
+  - main.ts <span style="color: dodgerblue;">modified</span>
+- angular-cli.json <span style="color: dodgerblue;">modified</span>
+- package.json <span style="color: dodgerblue;">modified</span>
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
