@@ -28,7 +28,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 >   }
 > ...
 > ```
-> and then run `npm install` for this project.
+> and then run `npm install angular-cli` for this project.
 
 Run `npm run serve:hmr` for a dev server with Hot Module Replacement. Navigate to `http://localhost:4200/`. 
 The app will hot swap module (js) code if you change any of the source files.

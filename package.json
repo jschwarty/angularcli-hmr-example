@@ -5,7 +5,7 @@
   "angular-cli": {},
   "scripts": {
     "start": "ng serve",
-    "serve:hmr" : "ng serve -e=dev-h"
+    "serve:hmr": "ng serve --hmr -e=dev-hmr",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
