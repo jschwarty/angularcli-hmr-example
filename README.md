@@ -43,13 +43,13 @@ management and update `hmr.ts` to handle capturing and passing in the state.
 **Files added/edited in a default angular-cli project for HMR support**  
 - /src
   - /environments
-    - environment.dev-hmr.ts <span style="color: forestgreen;">new</span>
-    - environment.prod.ts <span style="color: dodgerblue;">modified</span>
-    - environment.ts <span style="color: dodgerblue;">modified</span>
-  - hmr.ts <span style="color: forestgreen;">new</span>
-  - main.ts <span style="color: dodgerblue;">modified</span>
-- angular-cli.json <span style="color: dodgerblue;">modified</span>
-- package.json <span style="color: dodgerblue;">modified</span>
+    - environment.dev-hmr.ts *(new)*
+    - environment.prod.ts *(modified)*
+    - environment.ts *(modified)*
+  - hmr.ts *(new)*
+  - main.ts *(modified)*
+- angular-cli.json *(modified)*
+- package.json *(modified)*
 
 ## Code scaffolding
 
