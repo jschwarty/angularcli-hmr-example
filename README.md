@@ -7,29 +7,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Development server with HMR
 
-> Note  
-> This project is not currently referencing a version of the `angular-cli` that supports
-> the `--hmr` flag. You will need to clone a supported version locally and then build it:
-> ```
-> git clone https://github.com/jschwarty/angular-cli.git
-> cd angular-cli
-> git checkout feature/add-hmr-flag
-> npm install
-> npm run build
-> ```
-> Then you will want to update this `project.json` file with the full local path to your clone
-> and append `/dist/angular-cli` to make sure the built code is what is referenced for the package:
-> ```json
-> ...
-> "  devDependencies": {
->     ...
->     "angular-cli": "<path-to-the-clone>/dist/angular-cli",
->     ...
->   }
-> ...
-> ```
-> and then run `npm install angular-cli` for this project.
-
 Run `npm run serve:hmr` for a dev server with Hot Module Replacement. Navigate to `http://localhost:4200/`. 
 The app will hot swap module (js) code if you change any of the source files.
 Note that this will result in a new bootstrap call to your app, so if you want to 
